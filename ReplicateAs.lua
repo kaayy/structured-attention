@@ -65,22 +65,3 @@ function ReplicateAs:updateGradInput(input, gradOutput)
   return {self.gradInput, gradInputShape}
 end
 
---[[
-require("torch")
-require("nn")
-s = torch.Tensor{1,2}
-p = torch.Tensor{{1, 2}, {3, 4}}
-rep = nn.ReplicateAs()
-print(rep:forward{s, p})
-
-s = torch.Tensor{{1, 2}}
-q = torch.Tensor{{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}}
-r = rep:forward{s, q}
-print(r)
-mm = nn.MM()
-r2 = mm:forward{r, q}
-print(r2)
-mm2 = nn.MM(false, true)
-r3 = mm2:forward{r2, r}
-print(r3)
---]]
