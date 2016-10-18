@@ -3,7 +3,7 @@
   Fast Binary Tree LSTM
   Two techniques are usd to speed up tree LSTM:
   1. Following the implementation of FastLSTM in rnn, all gates in a node are calculated together.
-  2. The LSTM node allocated at differeent tree nodes (in different trees) are cached to avoid the allocation time.
+  2. The LSTM nodes allocated at differeent tree nodes (in different trees) are cached to avoid the allocation time.
 
 --]]
 
