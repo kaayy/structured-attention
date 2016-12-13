@@ -1,6 +1,6 @@
 # Textual Entailment with Structured Attentions and Composition
 
-This repository contains an implementation of the structured attention and compositon model for textual entailment described in the paper [Textual Entailment with Structured Attentions and Composition](#).
+This repository contains an implementation of the structured attention and compositon model for textual entailment described in the paper [Textual Entailment with Structured Attentions and Composition](http://aclweb.org/anthology/C16-1212).
 
 #### Required Dependencies
 
