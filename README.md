@@ -8,6 +8,7 @@ This repository contains an implementation of the structured attention and compo
 
 1. Torch7
 2. Torch [rnn](https://github.com/Element-Research/rnn) library
+3. [Penlight](http://stevedonovan.github.io/Penlight/api/index.html)
 
 #### Training
 
