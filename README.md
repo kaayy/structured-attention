@@ -1,5 +1,7 @@
 # Textual Entailment with Structured Attentions and Composition
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains an implementation of the structured attention and compositon model for textual entailment described in the paper [Textual Entailment with Structured Attentions and Composition](http://aclweb.org/anthology/C16-1212).
 
 #### Required Dependencies
